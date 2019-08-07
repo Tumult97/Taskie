@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "Taskie",
+    "packageName": "com.tristan.taskie",
+    "packageFolder": "com/tristan/taskie",
+    "serverPort": 80,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "ODdkYjJhMjk2OGVmNjRhNDNhMTk1ZTE0OTIyNmMxZDg1ZjlmODRjZGFhODEzNDQyM2YzYTIyZmMxYTc5NDU4YzMxMDViZjU1NmVlOTQwYjI2MDcwNzIyZTc0OGI1YWNmYWEzNTFlNzFkOTgyMjkxZmVhNTQwMGM3MzFlM2I4Mjc=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "Tumult97",
+  "repository-name": "Taskie"
+}
