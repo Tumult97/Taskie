@@ -4,7 +4,8 @@ import { HomeComponent } from './';
 
 export const HOME_ROUTE: Route = {
   path: '',
-  component: HomeComponent,
+  redirectTo: '/task',
+  pathMatch: 'full',
   data: {
     authorities: [],
     pageTitle: 'Welcome, Java Hipster!'

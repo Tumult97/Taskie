@@ -20,6 +20,7 @@ import { TaskieEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     TaskieAccountModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     TaskieEntityModule,
-    TaskieAppRoutingModule
+    TaskieAppRoutingModule,
+    FormsModule
   ],
   declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
   providers: [
